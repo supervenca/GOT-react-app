@@ -1,0 +1,17 @@
+.toggle-btn {
+    padding: 12px;
+    background-color: #4e5052;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 40px;
+    outline: none;
+    box-shadow: 0px 0px 30px rgba(256,256,256,.1);
+    cursor: pointer;
+}
+.toggle-btn:hover {
+    opacity: 0.8;
+}
+.toggle-btn:focus {
+    outline: none;
+}
