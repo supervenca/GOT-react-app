@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
 import './itemList.css';
 import Spinner from "../spinner";
-import ErrorMessage from "../errorMessage";
 
 export default class ItemList extends Component {
 
 
     state = {
-        itemList: null,
-        error: false
+        itemList: null
     }
 
     componentDidMount() {
@@ -17,30 +15,15 @@ export default class ItemList extends Component {
         getData()
             .then( (itemList) => {
                 this.setState({
-                    itemList,
-                    error: false
-                });
+                    itemList
+                })
             })
-            .catch(() => {this.onError()});
-    }
-
-    componentDidCatch(){
-        this.setState({
-            itemList: null,
-            error: true
-        })
-    }
-    onError(status){
-        this.setState({
-            itemList: null,
-            error: true
-        })
     }
 
     // перебор элементов массива персонажей по порядковому номеру и рендер
     renderItems(arr) {
         return arr.map((item) => {
-            const {id,name} = item;
+            const {id} = item;
             const label = this.props.renderItem(item);
             return (
                 <li
@@ -56,11 +39,7 @@ export default class ItemList extends Component {
 
     render() {
 
-        const {itemList, error} = this.state;
-
-        if(error){
-            return <ErrorMessage/>
-        }
+        const {itemList} = this.state;
 
         if (!itemList) {
             return <Spinner/>
