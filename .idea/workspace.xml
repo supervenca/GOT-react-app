@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7355f7b3-fddd-403b-b501-0dae2a4afb87" name="Default Changelist" comment="patterns, children">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/booksPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/housesPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/index.js" afterDir="false" />
+    <list default="true" id="7355f7b3-fddd-403b-b501-0dae2a4afb87" name="Default Changelist" comment="react-router navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/charDetails/charDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemDetails/itemDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/charDetails/charDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemDetails/itemDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/charDetails/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemDetails/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/characterPage/characterPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/booksItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/characterPage/characterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/characterPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/characterPage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/itemList/itemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/itemList/itemList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/randomChar/randomChar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/randomChar/randomChar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +41,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.TypeScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +64,8 @@
       <workItem from="1611997375596" duration="10850000" />
       <workItem from="1612118445415" duration="7292000" />
       <workItem from="1612174223432" duration="6151000" />
+      <workItem from="1612184955081" duration="87000" />
+      <workItem from="1612278815233" duration="4192000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1612011691402</created>
@@ -90,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612124391065</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="react-router navigation">
+      <created>1612184983668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612184983668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +109,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="patterns, children" />
-    <option name="LAST_COMMIT_MESSAGE" value="patterns, children" />
+    <MESSAGE value="react-router navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-router navigation" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
