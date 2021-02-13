@@ -48,6 +48,12 @@ export default class App extends Component {
                     <Container>
                         <Header />
                     </Container>
+                    <Container className="greeting">
+                        <Route path='/' exact component={() => <>
+                            <h1>Welcome to the Game Of Thrones Data Base!</h1>
+                            <p>Here you can find all the information about GOT universe</p>
+                        </>}/>
+                    </Container>
                     <Container>
                         <Row>
                             <Col lg={{size: 5, offset: 0}}>
@@ -57,7 +63,7 @@ export default class App extends Component {
                                     onClick={this.toggleRandomChar}>Toggle random character</button>
                             </Col>
                         </Row>
-                        <Route path='/' exact component={() => <h1>Welcome to GOT DB</h1>}/>
+
                         <Route path='/characters' component={CharacterPage} />
                         <Route path='/books' exact component={BooksPage}/>
                         <Route path='/books/:id' render={({match}) => {

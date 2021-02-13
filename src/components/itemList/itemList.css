@@ -1,3 +1,7 @@
+.item-list {
+    max-height: 600px;
+    overflow: auto;
+}
 .item-list .list-group-item {
     cursor: pointer;
 }
