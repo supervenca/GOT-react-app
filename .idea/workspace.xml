@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7355f7b3-fddd-403b-b501-0dae2a4afb87" name="Default Changelist" comment="item list style upd">
+    <list default="true" id="7355f7b3-fddd-403b-b501-0dae2a4afb87" name="Default Changelist" comment="title and favicon upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <workItem from="1612184955081" duration="87000" />
       <workItem from="1612278815233" duration="4192000" />
       <workItem from="1613216237164" duration="5818000" />
-      <workItem from="1613225160621" duration="299000" />
+      <workItem from="1613225160621" duration="993000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1612011691402</created>
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613224547741</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="title and favicon upd">
+      <created>1613225683533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613225683533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +126,8 @@
     <MESSAGE value="patterns, children" />
     <MESSAGE value="react-router navigation" />
     <MESSAGE value="item list style upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="item list style upd" />
+    <MESSAGE value="title and favicon upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="title and favicon upd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

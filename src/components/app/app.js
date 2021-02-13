@@ -50,8 +50,8 @@ export default class App extends Component {
                     </Container>
                     <Container className="greeting">
                         <Route path='/' exact component={() => <>
-                            <h1>Welcome to the Game Of Thrones Data Base!</h1>
-                            <p>Here you can find all the information about GOT universe</p>
+                            <h1>Welcome to the Game Of Thrones database!</h1>
+                            <p>Here you can find all the information about the GOT universe</p>
                         </>}/>
                     </Container>
                     <Container>
